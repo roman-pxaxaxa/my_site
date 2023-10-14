@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff5e8;
+  block-size: 100%;
+  gap: 30px;
+}
+
+.greetings {
+  text-align: center;
+  background-color: #ff60bf  ;
+  padding: 5px;
+  font-family: Phorssa, serif;
+  font-size: 85px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns:  repeat(1, 1fr);
+  grid-auto-rows: minmax(50px, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.line {
+  text-align: center;
+  font-family: HarryPotter, serif;
+}
+
+.name {
+  font-size: 5rem;
+  color: #e2c000;
+}
+
+.whoami {
+  font-size: 5rem;
+  color: #0036bd;
+}
+
+.iwant {
+  font-size: 5rem;
+  color: #970000;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  font-family: sans-serif;
+}
