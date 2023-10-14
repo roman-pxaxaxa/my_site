@@ -19,14 +19,16 @@ fieldset {
 
 body {
   margin: 0;
+  height: 100vh;
 }
 
 .page {
   display: flex;
   flex-direction: column;
   background-color: #fff5e8;
-  block-size: 100%;
   gap: 30px;
+  min-height: 100%;
+  justify-content: space-between;
 }
 
 .greetings {
@@ -66,10 +68,6 @@ body {
 }
 
 .footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   padding: 5px;
   display: flex;
   align-items:center;
